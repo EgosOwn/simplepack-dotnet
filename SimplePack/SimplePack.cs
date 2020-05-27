@@ -7,6 +7,7 @@ namespace simplepack
     {
         private string head;
         private string foot;
+
         public SimplePack(string header, string footer){
             // Specify human meaningful header/footer string
             head = header;

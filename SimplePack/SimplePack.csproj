@@ -2,10 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Kevin Froman</Authors>
+    <Company></Company>
+    <Title>SimplePack</Title>
+    <Copyright>2020</Copyright>
+    <PackageId>SimplePack-base58</PackageId>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <description>Simple binary encoding format with built in checksum designed to avoid mangling.</description>
+
+
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Base58Check" Version="0.2.0" />
+    <None Include="../LICENSE.txt" Pack="true" PackagePath="LICENSE.txt"/>
   </ItemGroup>
+
+
 
 </Project>
